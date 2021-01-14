@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>&lt;app-element> Demo</title>
+    <script type="module" src="../index.js"></script>
+    <style>
+      p {
+        border: solid 1px blue;
+        padding: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <app-header></app-header>
+
+    <app-element message="Counter coustom element">
+      <p>This is child content</p>
+    </app-element>
+
+    <test-element message="Test message from props">
+      <p>child 1</p>
+      <p>child 3</p>
+      <p>child 2</p>
+      <div slot="one">
+        <p>nested chlid</p>
+        <p>nested chlid 2</p>
+      </div>
+    </test-element>
+  </body>
+</html>

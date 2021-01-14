@@ -1,0 +1,100 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "app-element",
+      "path": "./components\\app-element.js",
+      "description": "An example element.",
+      "attributes": [
+        {
+          "name": "message",
+          "type": "string"
+        },
+        {
+          "name": "count",
+          "type": "number",
+          "default": "0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "message",
+          "attribute": "message",
+          "type": "string"
+        },
+        {
+          "name": "count",
+          "attribute": "count",
+          "type": "number",
+          "default": "0"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "This element has a slot"
+        }
+      ],
+      "cssParts": [
+        {
+          "name": "button",
+          "description": "The button"
+        }
+      ]
+    },
+    {
+      "name": "app-header",
+      "path": "./components\\app-header.js"
+    },
+    {
+      "name": "test-element",
+      "path": "./components\\test-element.js",
+      "attributes": [
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "message",
+          "type": "string",
+          "default": "\"Hello World\""
+        },
+        {
+          "name": "array",
+          "type": "array",
+          "default": "[\"red\",\"blue\",\"green\",\"orange\"]"
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "default": "\"Some text\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "disabled",
+          "attribute": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "message",
+          "attribute": "message",
+          "type": "string",
+          "default": "\"Hello World\""
+        },
+        {
+          "name": "array",
+          "attribute": "array",
+          "type": "array",
+          "default": "[\"red\",\"blue\",\"green\",\"orange\"]"
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "\"Some text\""
+        }
+      ]
+    }
+  ]
+}
